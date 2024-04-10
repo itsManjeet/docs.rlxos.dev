@@ -1,15 +1,13 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
+  "history": "History",
+  "getting-started": "Getting Started",
+  "app-management": "Applications",
+  "system-management": "System",
+  "home": {
+    "title": "Home ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://rlxos.dev",
     "newWindow": true
   }
 }
