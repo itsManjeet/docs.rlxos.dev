@@ -3,7 +3,7 @@ const withNextra = require('nextra')({
 })
 
 module.exports = {
-    ...withNextra(), assetPrefix: "./", images: {
+    ...withNextra(), images: {
         unoptimized: true
     }
 }
