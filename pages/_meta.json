@@ -1,6 +1,9 @@
 {
   "index": "Introduction",
-  "history": "History",
+  "history": {
+    "title": "History",
+    "type": "page"
+  },
   "getting-started": "Getting Started",
   "app-management": "Applications",
   "system-management": "System",
