@@ -1,6 +1,6 @@
 {
-  "01-supported-hardware": "Supported Hardware",
-  "02-installation": "Installation",
-  "03-first-boot": "First boot",
-  "04-welcome-tour": "Welcome Tour"
+  "supported-hardware": "Supported Hardware",
+  "installation": "Installation",
+  "first-boot": "First boot",
+  "welcome-tour": "Welcome Tour"
 }
