@@ -10,13 +10,20 @@
     <link href="{{ path | url }}" rel="stylesheet">
     {%- endfor %}
 
-    <link rel="stylesheet" type="text/css" href="css/server.css">
+    <link rel="stylesheet" type="text/css" href="/css/server.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script data-search-pseudo-elements defer
         src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/82c3e4f9bf.js" crossorigin="anonymous"></script>
+
+    <style>
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RLBFMSHXTJ"></script>
@@ -148,6 +155,7 @@
                             {% for item in nav %}
                                 {% if item.children %}
                                     <div class="list-group-item p-3">
+                                       <p class="py-1">{{ item.title }}</p>
                                         {% for item in item.children %}
                                         <a class="list-group-item list-group-item-action p-3" href="{{ item.url|url }}">{{ item.title }}</a>    
                                         {% endfor %}
@@ -241,7 +249,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous"></script>
-    <script src="js/server.js"></script>
+    <script src="/js/server.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({
