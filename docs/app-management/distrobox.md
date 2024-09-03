@@ -26,12 +26,12 @@ This command pull the OCI system image of that Linux distribution and Need activ
 
 Once you created a new container, You can close that terminal and Search the installed Distribution in `Application Menu`
 
-![Search](assets/distrobox/search.png)
+![Search](/assets/distrobox/search.png)
 
 
 On the first, Distrobox perform some initial setup to ease the experience, wait until done.
 
-![Initial Setup](assets/distrobox/ubuntu-initial-setup.png)
+![Initial Setup](/assets/distrobox/ubuntu-initial-setup.png)
 
 
 On finish, distrobox drop you inside the container shell, you can verify that with the `PS` which is `<Your Username>@<Your Container Name>`. Here you can execute any command of that container.

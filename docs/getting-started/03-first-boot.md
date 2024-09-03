@@ -11,15 +11,15 @@ you forget, then there is now straight way to access your account. With check bu
 to `root` user and Also You can login without entering your password but still you need to remember your password to
 perfrom administration tasks.
 
-![User Account](assets/first-boot/user.png)
+![User Account](/assets/first-boot/user.png)
 
 ## Timezone
 
 You can choose your timezone from the alphabetically orderd drop down list or choose the UTC timezone.
 
-![Timezone](assets/first-boot/timezone.png)
+![Timezone](/assets/first-boot/timezone.png)
 
 Follow the steps prompted to you and wait for the process to finished. Once you finished all the steps you click the *
 *Finalize** button the enter your account and use the RLXOS.
 
-![Finalize](assets/first-boot/success.png)
+![Finalize](/assets/first-boot/success.png)

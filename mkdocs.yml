@@ -1,0 +1,18 @@
+site_name: rlxos GNU/Linux
+nav:
+  - Home: index.md
+  - History: history.md
+  - Getting Started:
+    - getting-started/01-supported-hardware.md
+    - getting-started/02-installation.md
+    - getting-started/03-first-boot.md
+    - getting-started/04-welcome-tour.md
+  - Application Management:
+    - app-management/flatpak.md
+    - app-management/distrobox.md
+  - System Management:
+    - system-management/extensions.md
+    - system-management/updates.md
+theme:
+  name: mkdocs
+  custom_dir: theme/
