@@ -8,6 +8,7 @@ nav:
     - getting-started/03-first-boot.md
     - getting-started/04-welcome-tour.md
   - Application Management:
+    - app-management/software-center.md
     - app-management/flatpak.md
     - app-management/distrobox.md
   - System Management:
