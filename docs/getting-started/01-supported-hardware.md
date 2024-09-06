@@ -8,4 +8,4 @@
 | CPU       | Intel or AMD                                          |          |
 | Memory    | 700 MiB                                               | 2 GiB    |
 | Storage   | 16 GiB                                                | 50 GiB   |
-| Graphics  | i915,iris,nvidia,r300,r600,radeonsi,svga,swrast,virgl |          |
+| Graphics  | i915,iris,**nvidia**,r300,r600,radeonsi,svga,swrast,virgl |          |

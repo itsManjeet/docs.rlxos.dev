@@ -2209,7 +2209,7 @@ progress {
     }
 }
 
-.table {
+table {
     --bs-table-color: var(--bs-body-color);
     --bs-table-bg: transparent;
     --bs-table-border-color: #e0e5ec;
@@ -2227,22 +2227,22 @@ progress {
     border-color: var(--bs-table-border-color);
 }
 
-.table> :not(caption)>*>* {
+table> :not(caption)>*>* {
     padding: 0.75rem 0.75rem;
     background-color: var(--bs-table-bg);
     border-bottom-width: 1px;
     box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
 }
 
-.table>tbody {
+table>tbody {
     vertical-align: inherit;
 }
 
-.table>thead {
+table>thead {
     vertical-align: bottom;
 }
 
-.table-group-divider {
+table-group-divider {
     border-top: 2px solid currentcolor;
 }
 
@@ -2250,47 +2250,47 @@ progress {
     caption-side: top;
 }
 
-.table-sm> :not(caption)>*>* {
+table-sm> :not(caption)>*>* {
     padding: 0.25rem 0.25rem;
 }
 
-.table-bordered> :not(caption)>* {
+table-bordered> :not(caption)>* {
     border-width: 1px 0;
 }
 
-.table-bordered> :not(caption)>*>* {
+table-bordered> :not(caption)>*>* {
     border-width: 0 1px;
 }
 
-.table-borderless> :not(caption)>*>* {
+table-borderless> :not(caption)>*>* {
     border-bottom-width: 0;
 }
 
-.table-borderless> :not(:first-child) {
+table-borderless> :not(:first-child) {
     border-top-width: 0;
 }
 
-.table-striped>tbody>tr:nth-of-type(odd)>* {
+table-striped>tbody>tr:nth-of-type(odd)>* {
     --bs-table-accent-bg: var(--bs-table-striped-bg);
     color: var(--bs-table-striped-color);
 }
 
-.table-striped-columns> :not(caption)>tr> :nth-child(even) {
+table-striped-columns> :not(caption)>tr> :nth-child(even) {
     --bs-table-accent-bg: var(--bs-table-striped-bg);
     color: var(--bs-table-striped-color);
 }
 
-.table-active {
+table-active {
     --bs-table-accent-bg: var(--bs-table-active-bg);
     color: var(--bs-table-active-color);
 }
 
-.table-hover>tbody>tr:hover>* {
+table-hover>tbody>tr:hover>* {
     --bs-table-accent-bg: var(--bs-table-hover-bg);
     color: var(--bs-table-hover-color);
 }
 
-.table-primary {
+table-primary {
     --bs-table-color: #000;
     --bs-table-bg: #ccdffc;
     --bs-table-border-color: #b8c9e3;
@@ -2304,7 +2304,7 @@ progress {
     border-color: var(--bs-table-border-color);
 }
 
-.table-secondary {
+table-secondary {
     --bs-table-color: #000;
     --bs-table-bg: #e1ccf4;
     --bs-table-border-color: #cbb8dc;
@@ -2318,7 +2318,7 @@ progress {
     border-color: var(--bs-table-border-color);
 }
 
-.table-success {
+table-success {
     --bs-table-color: #000;
     --bs-table-bg: #cceee1;
     --bs-table-border-color: #b8d6cb;
@@ -2332,7 +2332,7 @@ progress {
     border-color: var(--bs-table-border-color);
 }
 
-.table-info {
+table-info {
     --bs-table-color: #000;
     --bs-table-bg: #ccf5f7;
     --bs-table-border-color: #b8ddde;
@@ -2346,7 +2346,7 @@ progress {
     border-color: var(--bs-table-border-color);
 }
 
-.table-warning {
+table-warning {
     --bs-table-color: #000;
     --bs-table-bg: #fdeccc;
     --bs-table-border-color: #e4d4b8;
@@ -2360,7 +2360,7 @@ progress {
     border-color: var(--bs-table-border-color);
 }
 
-.table-danger {
+table-danger {
     --bs-table-color: #000;
     --bs-table-bg: #fad0cc;
     --bs-table-border-color: #e1bbb8;
@@ -2374,7 +2374,7 @@ progress {
     border-color: var(--bs-table-border-color);
 }
 
-.table-light {
+table-light {
     --bs-table-color: #000;
     --bs-table-bg: #f2f6fc;
     --bs-table-border-color: #dadde3;
@@ -2388,7 +2388,7 @@ progress {
     border-color: var(--bs-table-border-color);
 }
 
-.table-dark {
+table-dark {
     --bs-table-color: #fff;
     --bs-table-bg: #212832;
     --bs-table-border-color: #373e47;
@@ -2402,41 +2402,41 @@ progress {
     border-color: var(--bs-table-border-color);
 }
 
-.table-responsive {
+table-responsive {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
 }
 
 @media (max-width: 575.98px) {
-    .table-responsive-sm {
+    table-responsive-sm {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
     }
 }
 
 @media (max-width: 767.98px) {
-    .table-responsive-md {
+    table-responsive-md {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
     }
 }
 
 @media (max-width: 991.98px) {
-    .table-responsive-lg {
+    table-responsive-lg {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
     }
 }
 
 @media (max-width: 1199.98px) {
-    .table-responsive-xl {
+    table-responsive-xl {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
     }
 }
 
 @media (max-width: 1499.98px) {
-    .table-responsive-xxl {
+    table-responsive-xxl {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
     }

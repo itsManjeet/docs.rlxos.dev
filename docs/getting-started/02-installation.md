@@ -2,7 +2,7 @@
 
 ## Getting Installer Image
 
-Get the latest ISO release of RLXOS from [Repository](https://repo.rlxos.dev/releases/). Server Repository provides
+Get the latest ISO release of RLXOS from [Download Page](https://rlxos.dev/downloads/). Server Repository provides
 Zsync data from ISO, so if you already had the ISO of previous version you can simply zsync to save bandwith.
 
 ## Creating Installation Media
@@ -84,6 +84,11 @@ channel**
 
 ## Tricks
 
-1. You have superuser access in the installation media without password.
-2. You can perform a manual installation if you are advance users and/or have unusual system configuration. To do that you can follow the installation script at `/usr/lib/initial-setup/installer.sh`
-3. Reopen `Installer` with environment variable `INITIAL_SETUP_EFI=` to force use EFI partition incase `Installer` is failing to detect appropriate UEFI partition.
+1. You can use below keyboard shortcuts to debug installation process
+
+| Keyboard Shortcuts | Application        |
+| ------------------ | ------------------ |
+| `CTRL+ALT+F2`      | Linux TTY          |
+| `CTRL+ALT+T`       | Terminal Window    |
+| `ALT+F2`           | Application Finder |
+

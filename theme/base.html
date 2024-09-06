@@ -39,116 +39,13 @@
 
 <body class="{% block body_class %}{% endblock %}">
     <nav class="navbar navbar-marketing navbar-expand-lg bg-white navbar-light">
-        <div class="container px-5">
+        <div class="container px-5 py-2">
             <a class="navbar-brand text-primary" href="https://rlxos.dev">rlxos</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <i data-feather="menu"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto me-lg-5">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://rlxos.dev">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://blog.rlxos.dev">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://rlxos.dev/gallery">Gallery</a>
-                    </li>
-                    <li class="nav-item dropdown no-caret">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" role="button"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Community
-                            <i class="fas fa-chevron-right dropdown-arrow"></i>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-end animated--fade-in-up"
-                            aria-labelledby="navbarDropdownDocs">
-                            <a class="dropdown-item py-3" href="https://github.com/itsManjeet/rlxos/discussions"
-                                target="_blank">
-                                <div class="icon-stack bg-primary-soft text-primary me-4">
-                                    <i class="fa-brands fa-github"></i>
-                                </div>
-                                <div>
-                                    <div class="small text-gray-500">Github</div>
-                                    Central repository for rlxos meta data
-                                </div>
-                            </a>
-                            <div class="dropdown-divider m-0"></div>
-                            <a class="dropdown-item py-3" href="https://www.youtube.com/@rlxos" target="_blank">
-                                <div class="icon-stack bg-primary-soft text-primary me-4">
-                                    <i class="fa-brands fa-youtube"></i>
-                                </div>
-                                <div>
-                                    <div class="small text-gray-500">Youtube</div>
-                                    Video Guided Tutorials
-                                </div>
-                            </a>
-                            <div class="dropdown-divider m-0"></div>
-                            <a class="dropdown-item py-3" href="https://twitter.com/rlxos_dev" target="_blank">
-                                <div class="icon-stack bg-primary-soft text-primary me-4">
-                                    <i class="fa-brands fa-telegram"></i>
-                                </div>
-                                <div>
-                                    <div class="small text-gray-500">Twitter</div>
-                                    Latest news and updates from core team
-                                </div>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown no-caret">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" role="button"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Documentation
-                            <i class="fas fa-chevron-right dropdown-arrow"></i>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-end animated--fade-in-up"
-                            aria-labelledby="navbarDropdownDocs">
-                            <a class="dropdown-item py-3" href="https://docs.rlxos.dev" target="_blank">
-                                <div class="icon-stack bg-primary-soft text-primary me-4">
-                                    <i data-feather="book-open"></i>
-                                </div>
-                                <div>
-                                    <div class="small text-gray-500">Documentation</div>
-                                    Usage instructions and reference
-                                </div>
-                            </a>
-                            <div class="dropdown-divider m-0"></div>
-                            <a class="dropdown-item py-3" href="https://github.com/itsManjeet/rlxos/commit/stable"
-                                target="_blank">
-                                <div class="icon-stack bg-primary-soft text-primary me-4">
-                                    <i data-feather="file-text"></i>
-                                </div>
-                                <div>
-                                    <div class="small text-gray-500">Changelog</div>
-                                    Updates and changes
-                                </div>
-                            </a>
-                            <div class="dropdown-divider m-0"></div>
-                            <a class="dropdown-item py-3" href="https://github.com/itsManjeet/rlxos/issues"
-                                target="_blank">
-                                <div class="icon-stack bg-primary-soft text-primary me-4">
-                                    <i data-feather="alert-triangle"></i>
-                                </div>
-                                <div>
-                                    <div class="small text-gray-500">Issues</div>
-                                    Bugs and Known issues
-                                </div>
-                            </a>
-                        </div>
-                    </li>
-                </ul>
-                <a class="btn fw-500 ms-lg-4 btn-primary" href="https://flathub.org/">Apps<i class="ms-2"
-                        data-feather="arrow-right"></i>
-                </a>
-            </div>
         </div>
     </nav>
 
     <section class="px-4 py-5 my-4">
-        <div class="container px-5">
-            <div class="row gx-5">
+            <div class="row">
                 <div class="col-lg-4 col-xl-3 mb-5">
                     <div class="card">
                         <div class="list-group list-group-flush small">
@@ -177,66 +74,15 @@
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
 
     <div id="layoutDefault_footer">
-        <footer class="footer pt-10 pb-5 mt-auto bg-dark footer-dark">
+        <footer class="footer pt-5 pb-5 mt-auto bg-dark footer-dark">
             <div class="container px-5">
-                <div class="row gx-5">
-                    <div class="col-lg-3">
-                        <div class="footer-brand">rlxos</div>
-                        <div class="mb-3">An Independent Open Source Operating System</div>
-                        <div class="icon-list-social mb-5">
-                            <a class="icon-list-social-link" href="https://github.com/itsManjeet/rlxos"><i
-                                    class="fab fa-github"></i></a>
-                            <a class="icon-list-social-link" href="https://www.youtube.com/@rlxos"><i
-                                    class="fab fa-youtube"></i></a>
-                            <a class="icon-list-social-link" href="https://twitter.com/rlxos_dev"><i
-                                    class="fab fa-twitter"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <div class="row gx-5">
-                            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                                <div class="text-uppercase-expanded text-xs mb-4">HOME</div>
-                                <ul class="list-unstyled mb-0">
-                                    <li class="mb-2"><a href="https://rlxos.dev">Site</a></li>
-                                    <li class="mb-2"><a href="https://blog.rlxos.dev">Blog</a></li>
-                                    <li class="mb-2"><a href="https://rlxos.dev/downloads">Downloads</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                                <div class="text-uppercase-expanded text-xs mb-4">Technical</div>
-                                <ul class="list-unstyled mb-0">
-                                    <li class="mb-2"><a href="https://docs.rlxos.dev/">Documentation</a></li>
-                                    <li class="mb-2"><a
-                                            href="https://github.com/itsManjeet/rlxos/commit/stable">Changelog</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-3 col-md-6">
-                                <div class="text-uppercase-expanded text-xs mb-4">Legal</div>
-                                <ul class="list-unstyled mb-0">
-                                    <li class="mb-2"><a href="https://rlxos.dev/privacy">Privacy Policy</a></li>
-                                    <li class="mb-2"><a href="https://rlxos.dev/terms">Terms and Conditions</a></li>
-                                    <li><a
-                                            href="https://raw.githubusercontent.com/itsManjeet/rlxos/stable/LICENSE">License</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr class="my-5" />
                 <div class="row gx-5 align-items-center">
-                    <div class="col-md-4 small">Copyright &copy; rlxos 2023</div>
-                    <div class="col-md-4 small text-md-center">ॐ・जय श्री राम</div>
-                    <div class="col-md-4 text-md-end small">
-                        <a href="https://rlxos.dev/privacy">Privacy Policy</a>
-                        &middot;
-                        <a href="https://rlxos.dev/terms">Terms &amp; Conditions</a>
-                    </div>
+                    <div class="col-md-4 small">Copyright &copy; rlxos 2024</div>
+                    <div class="col-md-4 small text-md-center">ॐ</div>
                 </div>
             </div>
         </footer>

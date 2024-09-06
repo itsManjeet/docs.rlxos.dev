@@ -10,4 +10,4 @@ Major events and release in the history of rlxos
 | 08-Oct-2021   | Internal release of **rlxos 2110** featuring **PKGUPD**         |
 | 12-July-2023  | Fourth public major release **rlxos 2306** featuring **OStree** |
 | 22-Dec-2023   | Stability fixes for **rlxos 1.5**                               |
-| 08-April-2024 | Major release **rlxos-2.0** with new looks                      |
+| 07-Sept-2024  | Major release **rlxos-2.0** with new looks                      |
